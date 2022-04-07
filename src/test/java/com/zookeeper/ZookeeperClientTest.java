@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 @SpringBootTest
 public class ZookeeperClientTest {
 
-    private static final String ZK_ADDRESS = "localhost:2181";
+    private static final String ZK_ADDRESS = "localhost:2181,localhost:2182,localhost:2183,localhost:2184";
 
     private static final int SESSION_TIMEOUT = 5000;
 
